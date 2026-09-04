@@ -1,7 +1,7 @@
 # BiHan.
 
 <p align="center">
-  <img src="./repo_assets/lockup.png" alt="Bihan Logo" width="600">
+  <img src="./repo_assets/meme.png" alt="Bihan Logo" width="600">
 </p> 
 
 [![BiHan](https://img.shields.io/badge/BiHan-lightblue)](https://www.npmjs.com/package/bihan)
@@ -11,7 +11,7 @@
 [![modelhitch](https://img.shields.io/badge/inference-ModelHitch-darkblue)](https://www.npmjs.com/package/modelhitch)
 [![Bring Your Own Provider](https://img.shields.io/badge/inference-BYOP-blue)](#)
 
->Specialized subagent orchestration for models that need to get real work done with an abundance of tools.
+> Specialized subagent orchestration for models that need to get real work done with an abundance of tools.
 
 ---
 
