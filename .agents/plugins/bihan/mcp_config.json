@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "bihan": {
+      "command": "node",
+      "args": [
+        "./dist/server-cli.cjs"
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "bihan",
+  "version": "0.1.0",
+  "description": "The Sub-Zero subagent orchestrator with abundant toolkits, powered by ModelHitch",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "bin": {
+    "bihan-server": "./dist/server-cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    ".agents",
+    ".codex"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts src/server-cli.ts --format cjs,esm --dts",
+    "prepublishOnly": "npm run build",
+    "dev": "tsup src/index.ts src/server-cli.ts --format cjs,esm --dts --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai",
+    "subagents",
+    "modelhitch",
+    "subcontractor",
+    "subzero",
+    "bihan",
+    "agentic"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "modelhitch": "^0.15.0",
+    "zod": "^3.25.76",
+    "zod-to-json-schema": "^3.25.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsup": "^8.5.1",
+    "typescript": "^5.7.3"
+  }
+}
