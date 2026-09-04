@@ -6,7 +6,6 @@
 
 [![BiHan](https://img.shields.io/badge/BiHan-lightblue)](https://www.npmjs.com/package/bihan)
 [![npm version](https://img.shields.io/npm/v/bihan?color=blue)](https://www.npmjs.com/package/bihan)
-[![license](https://img.shields.io/github/license/bobbybacklogs/bihan?color=darkblue)](LICENSE)
 [![node](https://img.shields.io/badge/node-%3E%3D20.0.0-deepblue)](https://nodejs.org/)
 [![modelhitch](https://img.shields.io/badge/inference-ModelHitch-darkblue)](https://www.npmjs.com/package/modelhitch)
 [![Bring Your Own Provider](https://img.shields.io/badge/inference-BYOP-blue)](#)
