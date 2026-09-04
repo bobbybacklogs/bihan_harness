@@ -4,8 +4,8 @@
   <img src="./repo_assets/meme.png" alt="Bihan Logo" width="600">
 </p> 
 
-[![BiHan](https://img.shields.io/badge/BiHan-lightblue)](https://www.npmjs.com/package/bihan)
-[![npm version](https://img.shields.io/npm/v/bihan?color=blue)](https://www.npmjs.com/package/bihan)
+[![BiHan](https://img.shields.io/badge/BiHan-lightblue)](https://www.npmjs.com/package/@genoventures-labs/bihan)
+[![npm version](https://img.shields.io/npm/v/@genoventures-labs/bihan?color=blue)](https://www.npmjs.com/package/@genoventures-labs/bihan)
 [![node](https://img.shields.io/badge/node-%3E%3D20.0.0-deepblue)](https://nodejs.org/)
 [![modelhitch](https://img.shields.io/badge/inference-ModelHitch-darkblue)](https://www.npmjs.com/package/modelhitch)
 [![Bring Your Own Provider](https://img.shields.io/badge/inference-BYOP-blue)](#)
@@ -45,7 +45,7 @@ bihan solves this by providing:
 ## Installation
 
 ```bash
-npm install bihan modelhitch zod
+npm install @genoventures-labs/bihan modelhitch zod
 ```
 
 ---
@@ -53,7 +53,7 @@ npm install bihan modelhitch zod
 ## Quick Start
 
 ```typescript
-import { Bihan, defineTool, tools } from "bihan";
+import { Bihan, defineTool, tools } from "@genoventures-labs/bihan";
 import { z } from "zod";
 
 // 1. Initialize the Grandmaster

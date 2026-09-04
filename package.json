@@ -1,7 +1,10 @@
 {
-  "name": "bihan",
+  "name": "@genoventures-labs/bihan",
   "version": "0.1.0",
   "description": "The Sub-Zero subagent orchestrator with abundant toolkits, powered by ModelHitch",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -14,7 +17,7 @@
     }
   },
   "bin": {
-    "bihan-server": "./dist/server-cli.js"
+    "bihan-server": "dist/server-cli.js"
   },
   "files": [
     "dist",
